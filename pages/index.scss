@@ -1,0 +1,34 @@
+.hero {
+  background-color: initial;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__content-rigth {
+    &--title {
+      font-size: 48px;
+      font-weight: $fw-black;
+      margin: 0px 0px 32px;
+    }
+    &--description {
+      width: 93%;
+      margin-bottom: 2rem;
+      font-size: 1.25rem;
+      font-weight: $fw-reg;
+    }
+    &--button {
+      display: inline-block;
+      background: $clr-primary;
+      width: 13rem;
+      padding: .7rem 2rem;
+      text-align: center;
+      font-weight: $fw-bold;
+      color: $clr-light;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+}

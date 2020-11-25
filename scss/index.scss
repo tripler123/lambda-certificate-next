@@ -1,0 +1,12 @@
+@import './variables.scss';
+@import './globals';
+
+//Layouts
+@import '../Layouts/BasicLayout/BasicLayout.scss';
+
+//Components
+@import '../components/Header/Header';
+
+//Pages
+@import '../pages/index';
+@import '../pages/certificates/certificate.scss'

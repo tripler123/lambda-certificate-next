@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Generals */
+
+body {
+  background: $clr-light;
+  color: $clr-grey;
+  margin: 0;
+  font-family: $ff-primary;
+  font-size: $fs-body;
+  line-height: 1.6;
+}
+
+#__next{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 0.5em;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+  margin: 0;
+}
+
+h1{ font-weight: $fs-h1;}
+h2{ font-weight: $fs-h2;}
+h3{ font-weight: $fs-h3;}
